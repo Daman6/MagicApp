@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:background="@color/teal_200"
+    android:layout_height="200dp">
+
+
+    <TextView
+        android:id="@+id/tasknameTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:text="HELO HELO HELO"
+        android:textAlignment="center"
+        android:textSize="25dp"></TextView>
+    <Button
+        android:id="@+id/okayBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="OKay"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tasknameTv"></Button>
+
+</RelativeLayout>
